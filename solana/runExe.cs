@@ -9,7 +9,7 @@ public class runExe : MonoBehaviour {
 		Process process = new Process();
 		process.StartInfo.FileName = "connect.exe";
 		process.StartInfo.Arguments = "";
-        process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+        process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
 		process.Start();
 
         
