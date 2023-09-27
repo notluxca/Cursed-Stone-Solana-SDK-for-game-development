@@ -1,4 +1,4 @@
-from solana. import Wallet
+from solana import Wallet
 
 def createSolanaWallet():
     wallet = Wallet()

@@ -1,7 +1,7 @@
 from solathon import Client, Keypair
 
 #endereço da carteira que deseja verificar
-wallet_address = "6q1rgdT9TehEP6eLv9dbfFu1NJ3DV2UF7uGQSh6fZAhE"
+wallet_address = "8rZdhnRN3VarLqS5RbDN218tCdPzfRGDpdixqRzB9A8n"
 
 client = Client("https://api.devnet.solana.com")
 
