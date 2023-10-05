@@ -51,3 +51,7 @@ Você pode configurar a variável de ambiente da seguinte maneira:
 
 ```bash
 export PRIVATE_KEY=sua_chave_privada
+
+
+## Compilação
+pyinstaller main.py --onefile --hidden-import=_cffi_backend

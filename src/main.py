@@ -16,13 +16,13 @@ client = Client("https://api.devnet.solana.com")
 # create public and private key as wallet account | adress on solana blockchain
 def createWallet():
     new_account = Keypair()
-    print(f"Public Key: {new_account.public_key} | Private Key: {new_account.private_key}")
+    print(new_account.public_key, new_account.private_key)
 
 
 # check provided wallet address balance | WORKING
 def get_balance(wallet):
     balance = client.get_balance(wallet)
-    print("Saldo da carteira:", lamport_to_sol(balance['result']['value']) )
+    print(lamport_to_sol(balance['result']['value']))
 
 # dont try to request more than 1 sol per time, it will rate limit you | WORKING
 def requestAirdrop(value, pubKey):
@@ -78,7 +78,6 @@ def handleArgv(argv):
 
 
 if __name__ == "__main__":
-    print("Solana integration api")
     argv = sys.argv
     handleArgv(argv)
 
