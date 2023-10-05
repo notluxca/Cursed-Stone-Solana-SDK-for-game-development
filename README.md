@@ -1,4 +1,4 @@
-# cursed# Solana Wallet Creation and Sol Transfer
+# Cursed Stone Solana SDK for game development
 
 Este repositório contém código Python para criar uma carteira Solana e transferir Sol de uma carteira para outra. O código utiliza a biblioteca Solathon para interagir com a rede Solana.
 
